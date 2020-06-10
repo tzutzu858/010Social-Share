@@ -14,7 +14,7 @@ Android就會將這些App列出清單，使用者就可以自行選擇要用哪�
 
 
 ## 主程式
-```js
+```java
 Intent myIntent = new Intent(Intent.ACTION_SEND);
                 myIntent.setType("text/plain");
                 String sharesubject = "tzutzu的github";
